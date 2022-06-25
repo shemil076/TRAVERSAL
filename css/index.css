@@ -67,11 +67,11 @@
 
 }
 
-.cord-topic{
+.card-topic{
     padding-top: 20px;
     color: #000;
     text-align: center;
-    font-size:30px;
+    font-size:40px;
 }
 
 .card-holder{
@@ -91,7 +91,7 @@
     border-radius: 20px;
     background: linear-gradient(
       25.6deg,
-      rgba(255, 255, 255, 0.527) 28.69%,
+      rgba(155, 158, 186, 0.447) 28.69%,
       rgba(37, 28, 28, 0) 100%
     );
     box-shadow: 0 0 20px 10px rgba(94, 93, 93, 0.1);
@@ -99,6 +99,23 @@
     margin-bottom: 20px;
 }
 
+.card-img{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.card-title{
+    padding-top: 30px;
+    color: #000;
+    text-align: center;
+    font-size:30px;
+}
+
+.extra-padding{
+    padding-top:55px
+}
 
 /* footer */
 .footer{
