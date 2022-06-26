@@ -47,12 +47,12 @@
       display: block;
   }
 
-
+/* end of the navbar */
 
 .main{
     display:flex;
     flex-direction:column;
-    height: 1500px;
+    height: 2300px;
 
 }
 
@@ -123,12 +123,8 @@
     border-radius: 20px;
 }
 
-.card-img:hover{
-    margin-top: 35px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 15px;
-}
+
+
 .card-title{
     color: #000;
     text-align: center;
@@ -168,6 +164,89 @@
     margin-top:40px;
     margin-left: 120px;
 }
+
+
+.main-hr{
+    margin-top:10px;
+    width:90%;
+    height:1px;
+    color: #000;
+    background-color: rgb(0, 0, 0)
+}
+
+.upcoming-topic{
+    padding-top: 20px;
+    color: #000;
+    text-align: center;
+    font-size:30px;
+}
+
+
+.upcoming-glass-holder{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.upcoming-glass-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 1000px;
+    height: 550px;
+    border-radius: 20px;
+    background: linear-gradient(
+      25.6deg,
+      rgba(108, 120, 255, 0.733) 28.69%,
+      rgba(60, 0, 255, 0.703) 100%
+    );
+    box-shadow: 0 0 20px 10px rgba(94, 93, 93, 0.252);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.upcoming-glass-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background: linear-gradient(
+      25.6deg,
+      rgba(77, 77, 107, 0.768) 28.69%,
+      rgba(22, 22, 23, 0.831) 100%
+    );
+    box-shadow: 0 0 20px 10px rgba(94, 93, 93, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.upcoming-card-title{
+    font-size:30px;
+}
+
+.upcoming-card-subtitle{
+    color: rgb(185, 209, 209);
+    font-size: 28px;
+    text-align: center;
+}
+
+.upcoming-card-content{
+    color: #9fe2d5;
+    font-size:20px;
+    text-align: center;
+}
+
+
+
+
+
 
 /* footer */
 .footer{
