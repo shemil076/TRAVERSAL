@@ -1,59 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
     <title>Contact Us</title>
-</head>
-<body>
+  </head>
+  <body>
     <div role="navigation" aria-label="Main">
-        <!-- navigation div -->
-        <ul class="main-navigation-ul">
-          <li>
-            <a class="main-navigation-logo" href="../index.html"
-              ><img src="../img/logo.png" alt="logo"  height="45"
-              /></a><!-- navigation image -->
-          </li>
-          <li><a class="main-navigation-li" href="../index.html">HOME</a></li>
-          <li><a class="main-navigation-li" href="../html/about.html">ABOUT</a></li>
-          <li><a class="active main-navigation-li" href="../html/contact.html">CONTACT US</a></li>
-        </ul>
+      <!-- navigation div -->
+      <ul class="main-navigation-ul">
+        <li>
+          <a class="main-navigation-logo" href="../index.html"
+            ><img src="../img/logo.png" alt="logo" height="45" /></a
+          ><!-- navigation image -->
+        </li>
+        <li><a class="main-navigation-li" href="../index.html">HOME</a></li>
+        <li>
+          <a class="main-navigation-li" href="../html/about.html">ABOUT</a>
+        </li>
+        <li>
+          <a class="active main-navigation-li" href="../html/contact.html"
+            >CONTACT US</a
+          >
+        </li>
+      </ul>
     </div>
 
-   
+    <div class="main">
+      <div class="glass-holder">
+        <div class="contact-glass-container">
+          <h1 class="contact-us-title">Contact us</h1>
+          <div class="form-holder">
+            <form
+              action="mailto:inusharathnayaka2@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              
+            <div class="contact-details-holder ">
+              <div class="l_label">
+                  <label for="nameField">Full Name:</label>
+              </div>
+              <div class="cd_container">
+                  <input type="text"  class="field-size" placeholder="  Enter Your Full Name" />
+              </div>
 
-    <div class="main"></div>
+              <div class="l_label">
+                  <label for="mailField">Email:</label>
+              </div>
+              <div class="cd_container">
+                  <input type="email"  class="field-size" placeholder="  Enter Your Email" />
+              </div>
+              <div>
+                <div class="l_label">
+                  <label for="details">Message:</label>
+              </div>
+              <div>
+                  <textarea name="query_details" id="details" cols="65" rows="10"
+                      placeholder="  Enter the message" class="curve-border"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="button-submit">
+            <button class="submit-button curve-border"  type="submit" value="Submit"  >Submit</button>
+          </div>
 
+            </form>
+          </div>
+        </div>
+      </div>
 
+      <hr class="contact-hr">
+     
+      <div>
+        <div >
+          <h2 class="reachus-topic">Reach us</h2>
+
+          <div class="tel-row">
+            <img class="contact-img" src="../img/tel.png" >
+            <div class="tel-col">
+              <h3 class="tel-details">+94 753472058</h3>
+              <h3 class="tel-details">+94 753472058</h3>
+            </div>
+          </div>
+
+          <div class="email-col">
+            <img class="email-img" src="../img/email.png" >
+            <div class="emial-col">
+              <h3 class="emial-details">inusharathnayaka2@gmail.com</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="contact-hr">
+    </div>
 
     <div class="footer">
-        <div class="footer-content">
-          <div class="footer-img">
-            <a href="../index.html">
+      <div class="footer-content">
+        <div class="footer-img">
+          <a href="../index.html">
             <img
               src="../img/logo.png"
               alt="footer logo"
               width="30%"
-              role="img" aria-label="link to home page"
-              /></a>
-          </div>
-          <div class="footer-navigation text-left" role="navigation" aria-label="Main">
-            <h2>Navigation</h2>
-
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../html/about.html">About</a></li>
-                <li><a href="../html/contact.html">Contact Us</a></li>
-              </ul>
-          </div>
+              role="img"
+              aria-label="link to home page"
+          /></a>
         </div>
-        <hr class="footer-hr">
-        <p class="page-credits">© 2022 TRAVERSAL</p>
+        <div
+          class="footer-navigation text-left"
+          role="navigation"
+          aria-label="Main"
+        >
+          <h2>Navigation</h2>
+
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/about.html">About</a></li>
+            <li><a href="../html/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
-
-
-    
-</body>
+      <hr class="footer-hr" />
+      <p class="page-credits">© 2022 TRAVERSAL</p>
+    </div>
+  </body>
 </html>

@@ -3,11 +3,43 @@ body{
  }
  
  .main{
-    height: 500px
+    height: 800px
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #7372727c 0%, #0819d972 76%);
+}
+
+.glass-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: 800px;
+  height: 550px;
+  border-radius: 20px;
+  margin-top: 150px;
+  background: linear-gradient(
+    25.6deg,
+    rgba(255, 255, 255, 0.33) 28.69%,
+    rgba(255, 255, 255, 0.271) 100%
+  );
+  box-shadow: 0 0 20px 10px rgba(182, 182, 182, 0.1);
+}
+
+.about-us-title{
+  text-align: center;
+  font-size:40px;
+  color:white;
 }
 
 
 
+/* nav bar */
 .main-navigation-logo{
     float: left;
     padding: 2px 20px 0px 20px;
@@ -51,6 +83,8 @@ body{
       display: block;
   }
 
+
+  /* footer */
 
   .footer{
 	float: right;
