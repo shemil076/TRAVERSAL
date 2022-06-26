@@ -2,8 +2,6 @@
     margin: 0;
  }
 
-
-
  /* nav bar */
 .main-navigation-logo{
     float: left;
@@ -11,6 +9,7 @@
     text-decoration: none;
   
   }
+
   h2{
       color:white;
   }
@@ -245,9 +244,6 @@
 
 
 
-
-
-
 /* footer */
 .footer{
 	float: right;
@@ -260,7 +256,7 @@
 	margin:0;
 	background-color: rgba(0, 0, 0,0.8);
 }
-.footer-content{/* footer main div css */
+.footer-content{
 	display: flex;
 	flex-direction: row;
     justify-content: space-between;
@@ -271,7 +267,7 @@
 	text-decoration: none;
 	color: #A5A5A5;
 }
- a:hover {/* all anchors on hover */
+ a:hover {
 	text-decoration: none;
 	color: white;
 }
@@ -296,7 +292,7 @@
 	width: 95%;
 }
 
-.page-credits{/* page credits section */
+.page-credits{
 	text-align: center;
 	margin-bottom: 0;
 }
